@@ -1,0 +1,6 @@
+14:28:56.649 [main] INFO  Academy.ValidateTitle - Successfully validated Text message
+14:35:45.111 [main] INFO  resources.base - suceesfully login
+14:36:01.738 [main] INFO  resources.base - suceesfully login
+14:36:40.949 [main] INFO  Academy.ValidateTitle - driver is installed
+14:36:46.702 [main] INFO  Academy.ValidateTitle - Navigated to home page
+14:36:46.912 [main] INFO  Academy.ValidateTitle - Successfully validated Text message

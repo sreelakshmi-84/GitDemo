@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="110128" started-at="2020-01-13T14:34:56 GMT" finished-at="2020-01-13T14:36:47 GMT">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="67888" started-at="2020-01-13T14:34:56 GMT" finished-at="2020-01-13T14:36:04 GMT">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4f67eb2a]" name="basepagenavigation" duration-ms="50270" started-at="2020-01-13T14:34:57 GMT" data-provider="getData" finished-at="2020-01-13T14:35:47 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nonrestricteduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4f67eb2a]" name="basepagenavigation" duration-ms="17414" started-at="2020-01-13T14:35:47 GMT" data-provider="getData" finished-at="2020-01-13T14:36:04 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricteduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@4f67eb2a]" name="teardown" is-config="true" duration-ms="129" started-at="2020-01-13T14:36:04 GMT" finished-at="2020-01-13T14:36:04 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="41557" started-at="2020-01-13T14:36:05 GMT" finished-at="2020-01-13T14:36:47 GMT">
+      <class name="Academy.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateTitle@482bce4f]" name="initialize" is-config="true" duration-ms="41139" started-at="2020-01-13T14:36:05 GMT" finished-at="2020-01-13T14:36:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateText()[pri:0, instance:Academy.ValidateTitle@482bce4f]" name="validateText" duration-ms="208" started-at="2020-01-13T14:36:46 GMT" finished-at="2020-01-13T14:36:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.ValidateTitle@482bce4f]" name="teardown" is-config="true" duration-ms="205" started-at="2020-01-13T14:36:46 GMT" finished-at="2020-01-13T14:36:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
