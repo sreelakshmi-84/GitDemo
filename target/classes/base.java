@@ -15,7 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
 
 public class base {
-public static WebDriver driver;
+public static WebDriver driver;//static means we can access in all static and non static methods without creating object if all they are in same class
 public Properties prop;
 	public WebDriver initializeDriver() throws IOException {
 		//chrome

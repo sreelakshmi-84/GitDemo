@@ -9,7 +9,7 @@ public class LandingPage {
 	public WebDriver driver;
 	By signin=By.cssSelector("a[href*='sign_in']");
 	By context= By.xpath("//div[@class='text-center']/h2");
-	By popup=By.
+	//By popup=By.
 	
 	//By contact=By.linkText("Contact");
 	
