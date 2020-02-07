@@ -25,6 +25,7 @@ public class HomePage extends base {
 		driver.get(prop.getProperty("url"));
 	}*/
 	
+	//System.out.println("RestApi");
 
 	@Test(dataProvider="getData")
 	
@@ -33,7 +34,8 @@ public class HomePage extends base {
 		
 		driver=initializeDriver();//extend means all variable and methods of base class belongs to homepage and nonstatic method access all nonstatic methods without creating object if they were in same class
 		driver.get(prop.getProperty("url"));
-		
+		System.out.println("RestApi");
+		System.out.println("anothe user downloaded and modified code");
 		//inheritance
 		//by using objects
 		

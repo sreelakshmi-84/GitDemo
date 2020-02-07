@@ -12,11 +12,12 @@ public class LandingPage {
 	//By popup=By.
 	
 	//By contact=By.linkText("Contact");
+	//System.out.println("RestApi");
 	
 	By contact=By.xpath("//*[@id=\"homepage\"]/header/div[2]/div/nav/ul/li[8]/a");
 	
 	public LandingPage(WebDriver driver) {
-		
+		System.out.println("RestApi");
 		this.driver=driver;
 	}
 
